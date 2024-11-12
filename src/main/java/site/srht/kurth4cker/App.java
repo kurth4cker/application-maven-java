@@ -3,7 +3,7 @@
 
 package site.srht.kurth4cker;
 
-public final class Main {
+public final class App {
     public static void main(String[] args) {
         var greeting = Hello.greeting();
         System.out.println(greeting);
