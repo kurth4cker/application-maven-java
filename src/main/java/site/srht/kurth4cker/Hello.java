@@ -7,14 +7,6 @@ public final class Hello {
     private Hello() {
     }
 
-    public static String bye() {
-        return bye("world");
-    }
-
-    public static String bye(String from) {
-        return String.format("bye %s", from);
-    }
-
     public static String greeting() {
         return greeting("world");
     }

@@ -7,8 +7,5 @@ public final class App {
     public static void main(String[] args) {
         var greeting = Hello.greeting();
         System.out.println(greeting);
-
-        var bye = Hello.bye();
-        System.out.println(bye);
     }
 }
